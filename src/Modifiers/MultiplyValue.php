@@ -6,6 +6,7 @@ use SimonHamp\LaravelNovaCsvImport\Contracts\Modifier;
 
 class MultiplyValue implements Modifier
 {
+    //added multiplication
     public function title(): string
     {
         return 'Multiply Value';
