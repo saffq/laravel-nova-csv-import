@@ -44,8 +44,9 @@
                                 <input type="text" v-if="config.type === 'string'" v-model="element.settings[name]"
                                     class="form-control form-input form-input-bordered ml-4" :placeholder="config.default">
 
-                              <input type="number" v-if="config.type === 'number'" v-model="element.settings[name]"
+                                <input type="text" v-if="config.type === 'number'" v-model="element.settings[name]"
                                      class="form-control form-input form-input-bordered ml-4" :placeholder="config.default">
+
                                 <input type="text" v-if="config.type === 'boolean'" v-model="element.settings[name]"
                                     class="checkbox" :checked="config.default">
 
