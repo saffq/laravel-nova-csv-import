@@ -31,7 +31,7 @@ class MultiplyValue implements Modifier
     {
         $multiplier = $settings['multiplier'] ?? 1;
         if(is_numeric($value)) {
-            return $value * $multiplier;
+            return round ($value * $multiplier);
         } else {
             return $value;
         }
